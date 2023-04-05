@@ -7,7 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -25,22 +25,24 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            As a student of computer engineering,
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            I am actively learning and applying my knowledge to real-world
+            projects.
             <br />
-            y dummy text of printingLorem
+            Through my coursework and personal projects,
+            <br /> I have gained experience in programming languages,
             <br />
-            ispum is simpley dummy text of printing
+            software development tools, and hardware design.
+            <br />I amalways eager to learn and take on new challenges to
+            <br /> further develop my skills in this exciting field.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
           <div
             className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
-          ></div>
+            style={{ background: "#ABF1FF94" }}></div>
         </div>
 
         {/* right side */}
@@ -51,8 +53,7 @@ const Works = () => {
           whileInView={{ rotate: 0 }}
           viewport={{ margin: "-40px" }}
           transition={{ duration: 3.5, type: "spring" }}
-          className="w-mainCircle"
-        >
+          className="w-mainCircle">
           <div className="w-secCircle">
             <img src={Upwork} alt="" />
           </div>

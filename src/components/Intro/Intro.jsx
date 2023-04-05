@@ -5,7 +5,7 @@ import Vector2 from "../../img/Vector2.png";
 import boy from "../../img/boy.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
-import crown from "../../img/crown.png";
+import crown from "../../img/computer.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
@@ -20,6 +20,13 @@ const Intro = () => {
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  const gitUrl = new URL("https://github.com/tinotendanyashanu");
+  const linkedinUrl = new URL(
+    "https://www.linkedin.com/in/tinotenda-leonard-nyashanu-90163712b/"
+  );
+  const instagramUrl = new URL(
+    "https://instagram.com/tino_nyashanu?igshid=YmMyMTA2M2Y="
+  );
 
   return (
     <div className="Intro" id="Intro">
@@ -41,10 +48,23 @@ const Intro = () => {
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
+
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <img
+            src={Github}
+            alt=""
+            onClick={() => window.open(gitUrl, "_blank")}
+          />
+          <img
+            src={LinkedIn}
+            alt=""
+            onClick={() => window.open(linkedinUrl, "_blank")}
+          />
+          <img
+            src={Instagram}
+            alt=""
+            onClick={() => window.open(instagramUrl, "_blank")}
+          />
         </div>
       </div>
       {/* right image side */}
@@ -66,7 +86,7 @@ const Intro = () => {
           whileInView={{ left: "68%" }}
           transition={transition}
           className="floating-div">
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Computer" text2="Engineer" />
         </motion.div>
 
         {/* animation */}
