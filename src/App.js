@@ -5,7 +5,7 @@ import "./App.css";
 import Experience from "./components/Experience/Experience";
 import Works from "./components/Works/Works";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonial from "./components/Testimonials/Testimonial";
+import Qualification from "./components/Qualifications/Qualifications";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
@@ -19,15 +19,14 @@ function App() {
       style={{
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
-      }}
-    >
+      }}>
       <Navbar />
       <Intro />
       <Services />
       <Experience />
       <Works />
       <Portfolio />
-      <Testimonial />
+      <Qualification />
       <Contact />
       <Footer />
     </div>
