@@ -15,18 +15,18 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Earned a Graphics Design Certificate from Alison Online, covering principles, tools, and skills for creating visually appealing graphics. Proficient in Adobe Photoshop, Illustrator, and InDesign. Ready to create impactful visuals for diverse media platforms.",
+        "Earned a Graphics Design Certificate from Alison, covering principles, tools, and skills for creating visually appealing graphics. Proficient in Adobe Photoshop, Illustrator, and InDesign. Ready to create impactful visuals for diverse media platforms.",
     },
     {
       img: profilePic2,
       review:
-        "Certified Spring Boot Developer from Amigoscode online, proficient in building modern web applications with Spring Boot framework. Expertise in RESTful APIs, Spring Data, security, and deployment. Equipped to create high-performance, scalable Java-based applications.",
+        "Certified Spring Boot Developer from Amigoscode, proficient in building modern web applications with Spring Boot framework. Expertise in RESTful APIs, Spring Data, security, and deployment. Equipped to create high-performance, scalable Java-based applications.",
     },
-    // {
-    //   img: profilePic3,
-    //   review:
-    //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
-    // },
+    {
+      img: profilePic3,
+      review:
+        "Completed Git and GitHub course from Amigoscode, obtained certificate. Proficient in Git commands, version control, and collaboration. Well-versed in best practices for efficient software development.",
+    },
     // {
     //   img: profilePic4,
     //   review:
