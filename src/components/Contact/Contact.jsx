@@ -8,15 +8,14 @@ const Contact = () => {
   const darkMode = theme.state.darkMode;
   const form = useRef();
   const [done, setDone] = useState(false);
-  const [doneMessege, setDoneMessege] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_w06ecf7",
-        "template_f7hajpy",
+        "service_w06ecf7", // Replace this with your actual Service ID
+        "template_f7hajpy", // Replace this with your actual Template ID
         e.target,
         "4bCfq6iGN4dlg8uCz"
       )
@@ -28,6 +27,7 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
+          setDone(false);
         }
       );
   };

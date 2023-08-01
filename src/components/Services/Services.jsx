@@ -46,7 +46,9 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            detail={
+              " UX/UI Design,Graphic Design,Typography,Color Theory,Design Software Proficiency,"
+            }
           />
         </motion.div>
         {/* second card */}
@@ -57,7 +59,9 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express,python..."}
+            detail={
+              "Front-end Development, React,Angular, ,JavaScript,Back-end Development,Node.js, Express.js,Python,Django,Database Management,Version Control,DevOps"
+            }
           />
         </motion.div>
         {/* 3rd */}
@@ -68,7 +72,9 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"AI"}
-            detail={"scikit-learn,TensorFlow..."}
+            detail={
+              "Machine Learning,Natural Language Processing (NLP),Computer Vision,Deep Learning,Data Preprocessing,Model Evaluation and Metrics"
+            }
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
